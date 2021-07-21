@@ -12,7 +12,7 @@ function loadPage() {
 
   // Defining content of header, card and footer.
   header.innerHTML =
-    "<img class='worldImage' src='./images/world1.png' alt='world image'><h2 class='heading'>NATIONALIZE INFO</h2><br><img src='./images/people.png' class='peopleImage' alt='people'><br><p class='heading-para'>Your first name can give you clues into who you are and who else shares your name across the globe. To Know more enter your name below:</p>";
+    "<img class='worldImage' src='./images/world1.png' alt='world image'><h2 class='heading'>MY NAME STATS</h2><br><img src='./images/people.png' class='peopleImage' alt='people'><br><p class='heading-para'>Your first name can give you clues into who you are and who else shares your name across the globe. To Know more enter your name below:</p>";
 
   card.innerHTML = `<div class="input"><label for="firstName"></label>
     <div class="firstName"><input type="text" name="firstName" id="firstName" placeholder="First Name">
