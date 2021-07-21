@@ -1,0 +1,111 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 130vh;
+  background: linear-gradient(to right top, #8f83c0, #2758b4);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 4em;
+}
+
+.leftFooter {
+    flex: 50%;
+}
+
+.rightFooter {
+    flex: 50%;
+    align-items: center;
+    vertical-align: center;
+    justify-content: center;
+}
+
+.heading {
+    font-size: 230%;
+    padding: 0.3em 2em .5em 2em;
+    align-content: center;
+}
+
+.heading-para {
+    font-size: 120%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 70%;
+
+}
+
+#firstName {
+    min-width: 7em;
+    max-width: 15em;
+    width: 100%;
+    height: 2.5em;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 2em;
+    cursor: pointer;
+    height: 2em;
+    background: linear-gradient(to right top, #4d33a8, #3c67b6);
+    border: 1px skyblue solid;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn:hover {
+    background: linear-gradient(to left top, #4d33a8, #3c67b6);
+    border: yellow 1px solid;
+    opacity: 0.8;
+}
+
+.resultContainer {
+    padding: 1.5em 0em 0em 0em;
+    text-align: left;
+}
+
+.worldImage {
+    padding-top: 3em;
+    width: 60px;
+}
+
+.peopleImage {
+    width: 400px;
+}
+
+.linkedInImage {
+    width: 25px;
+}
+
+.twitterImage {
+    width: 25px;
+}
